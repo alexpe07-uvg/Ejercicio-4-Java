@@ -24,7 +24,7 @@ public class Camara extends Equipo {
 
     @Override
     protected double calculateExtraCost(int days) {
-        if (resolution >= 1080) {
+        if (resolution > 1080) {
             return 75.00;
         }
         return 0.00;
