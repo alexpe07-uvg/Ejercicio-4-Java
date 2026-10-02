@@ -11,6 +11,10 @@ public class Inventario {
         precargarEquipos();
     }
 
+    public double getTotalCost() {
+    return totalCost;
+}
+
     //verificación de existencia de código en el inventario
     public boolean existeCodigo(Integer code) {
         if (code == null) {
